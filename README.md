@@ -28,7 +28,7 @@ There's no need to configure anything to run the application. If you have
 ```bash
 $ cd crud-symfony/
 $ composer install
-$ symfony serve
+$ symfony server:start
 ```
 
 Then access the application in your browser at the given URL (<https://localhost:8000> by default).
