@@ -27,9 +27,9 @@ class CustomerController
     /**
      * @Route("/test", name="test", methods={"GET"})
      */ 
-    public function test(): JsonResponse
+    public function test(): Response
     {
-        return new JsonResponse(['result' => 'Test is returned!'], Response::HTTP_CREATED);
+        return new  Response("Hi Test Method");
     }
 
     /**
